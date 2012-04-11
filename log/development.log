@@ -1,0 +1,53 @@
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (142.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (85.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateKeys (20120411173510)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "keys" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "value" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120411173510')[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("keys")
+
+
+Started GET "/keys" for 127.0.0.1 at 2012-04-11 12:35:42 -0500
+  Processing by KeysController#index as HTML
+  [1m[36mKey Load (0.2ms)[0m  [1mSELECT "keys".* FROM "keys" [0m
+Rendered keys/index.html.erb within layouts/application (4.5ms)
+Compiled application.css  (1ms)  (pid 3482)
+Compiled keys.css  (5ms)  (pid 3482)
+Compiled scaffolds.css  (14ms)  (pid 3482)
+Compiled application.js  (15ms)  (pid 3482)
+Compiled jquery.js  (17ms)  (pid 3482)
+Compiled jquery_ujs.js  (0ms)  (pid 3482)
+Compiled keys.js  (381ms)  (pid 3482)
+Completed 200 OK in 603ms (Views: 601.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /keys.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /keys.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-11 12:35:43 -0500
+Served asset /application.js - 304 Not Modified (0ms)
