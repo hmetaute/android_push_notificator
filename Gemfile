@@ -7,7 +7,7 @@ gem 'rails', '3.1.1'
 
 gem 'pg'
 gem 'execjs'
-gem ‘therubyracer’
+gem 'therubyracer', :git => 'https://github.com/cowboyd/therubyracer.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
