@@ -40,7 +40,13 @@ class KeysController < ApplicationController
   # POST /keys
   # POST /keys.json
   def create
-    @key = Key.new(params[:key])
+    if(params[:key])
+      @key = Key.new(params[:key])
+    else
+      @key = Key.new
+      @key.name = params[:name]
+      @key.value = params[:value]
+    end
 
     respond_to do |format|
       if @key.save
