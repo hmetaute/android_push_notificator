@@ -3,7 +3,6 @@ class KeysController < ApplicationController
   # GET /keys.json
   def index
     @keys = Key.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @keys }
@@ -40,9 +39,24 @@ class KeysController < ApplicationController
   # POST /keys
   # POST /keys.json
   def create
+    #must change to production
+    #name = params[:name]
+    name = params[:key]["name"]
+    if name.eql? "position"
+      @position = Key.find_by_name("position")      
+      if @position
+        #must change as well to production
+        #@position.value = params[:value]
+        @position.value = params[:key]["value"]
+        @position.save                  
+        redirect_to @position, notice: 'position was successfully updated.' 
+        return
+      end
+    end
+
     if(params[:key])
       @key = Key.new(params[:key])
-    else
+    else      
       @key = Key.new
       @key.name = params[:name]
       @key.value = params[:value]

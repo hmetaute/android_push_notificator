@@ -1,4 +1,6 @@
 PushNotificator::Application.routes.draw do
+  get "map/show_position"
+
   resources :keys
 
   # The priority is based upon order of creation:
