@@ -43,7 +43,7 @@ class KeysController < ApplicationController
     name = params[:name] #production
     #name = params[:key]["name"] #development
     if name.eql? "coordinates"
-      @position = Key.find_by_name("position")      
+      @position = Key.find_by_name("coordinates")      
       if @position
         #must change as well to production
         @position.value = params[:value] #production
