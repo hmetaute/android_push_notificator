@@ -40,16 +40,16 @@ class KeysController < ApplicationController
   # POST /keys.json
   def create
     #must change to production
-    #name = params[:name]
-    name = params[:key]["name"]
-    if name.eql? "position"
+    name = params[:name] #production
+    #name = params[:key]["name"] #development
+    if name.eql? "coordinates"
       @position = Key.find_by_name("position")      
       if @position
         #must change as well to production
-        #@position.value = params[:value]
-        @position.value = params[:key]["value"]
+        @position.value = params[:value] #production
+        #@position.value = params[:key]["value"] #development
         @position.save                  
-        redirect_to @position, notice: 'position was successfully updated.' 
+        redirect_to @position, notice: 'coordinates were successfully updated.' 
         return
       end
     end
