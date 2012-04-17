@@ -39,6 +39,7 @@ class KeysController < ApplicationController
   # POST /keys
   # POST /keys.json
   def create
+=begin
     #must change to production
     name = params[:name] #production
     #name = params[:key]["name"] #development
@@ -53,7 +54,7 @@ class KeysController < ApplicationController
         return
       end
     end
-
+=end
     if(params[:key])
       @key = Key.new(params[:key])
     else      
