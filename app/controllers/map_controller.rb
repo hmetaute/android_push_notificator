@@ -1,7 +1,7 @@
 class MapController < ApplicationController
   def show_position
     id = params[:id]
-    @position = Key.find[id]
+    @position = Key.find(params[:id])
     # @position = Key.where(:name => "coordinates").order("created_at DESC").first
     if @position
       @lat = @position.value.split(";").first
