@@ -15,7 +15,6 @@
     <td><%= key.value %></td>
     <td><%= link_to 'Show in map' , :controller => "map", :action => "show_position", :id => key %></td>
     <td><%= link_to 'Edit', edit_key_path(key) %></td>
-    <td><%= link_to 'Destroy', key, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
