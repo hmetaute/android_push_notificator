@@ -1,6 +1,6 @@
 PushNotificator::Application.routes.draw do
-
-  match 'map/show_map/:id' => 'maps#show_map'
+  match ':controller/:action/:id'
+  #match 'map/show_map/:id' => 'maps#show_map'
   #get "map/show_position/:id"
   
   resources :keys
