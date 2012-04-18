@@ -1,5 +1,7 @@
 PushNotificator::Application.routes.draw do
-  get "map/show_position/:id"
+
+  match 'map/show_map/:id'
+  #get "map/show_position/:id"
   
   resources :keys
 
