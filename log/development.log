@@ -1153,3 +1153,432 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-13 18:55:39 -0500
 Served asset /map.js - 304 Not Modified (0ms)
+
+
+Started GET "/keys" for 127.0.0.1 at 2012-04-22 21:18:53 -0500
+  Processing by KeysController#index as HTML
+  [1m[36mKey Load (0.2ms)[0m  [1mSELECT "keys".* FROM "keys" WHERE "keys"."name" = 'coordinates'[0m
+Rendered keys/index.html.erb within layouts/application (35.4ms)
+Compiled application.css  (9ms)  (pid 6221)
+Compiled push_message.css  (26ms)  (pid 6221)
+Compiled application.js  (18ms)  (pid 6221)
+Compiled push_message.js  (184ms)  (pid 6221)
+Completed 200 OK in 596ms (Views: 545.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /push_message.css - 200 OK (42ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /keys.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /keys.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /push_message.js - 200 OK (1ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /map.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 21:18:54 -0500
+Served asset /map.css - 304 Not Modified (2ms)
+
+
+Started GET "/keys" for 127.0.0.1 at 2012-04-22 21:20:48 -0500
+  Processing by KeysController#index as HTML
+  [1m[36mKey Load (0.2ms)[0m  [1mSELECT "keys".* FROM "keys" WHERE "keys"."name" = 'coordinates'[0m
+Rendered keys/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 117ms (Views: 85.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /keys.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /map.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /push_message.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /keys.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /map.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 21:20:49 -0500
+Served asset /push_message.js - 304 Not Modified (1ms)
+
+
+Started GET "/push_notification/index" for 127.0.0.1 at 2012-04-22 21:21:15 -0500
+
+ActionController::RoutingError (No route matches [GET] "/push_notification/index"):
+  
+
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/push_message/index" for 127.0.0.1 at 2012-04-22 21:21:38 -0500
+  Processing by PushMessageController#index as HTML
+Rendered push_message/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /map.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /keys.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /push_message.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /keys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 21:21:39 -0500
+Served asset /push_message.js - 304 Not Modified (0ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 21:21:48 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"algo para enviarle al notificador de google", "commit"=>"Send!"}
+  [1m[35mKey Load (0.1ms)[0m  SELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1
+Completed 500 Internal Server Error in 423ms
+
+EOFError (end of file reached):
+  app/controllers/push_message_controller.rb:10:in `send_message'
+
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/push_message/index" for 127.0.0.1 at 2012-04-22 22:12:59 -0500
+  Processing by PushMessageController#index as HTML
+Rendered push_message/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /map.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /keys.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /keys.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /push_message.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /map.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:00 -0500
+Served asset /push_message.js - 304 Not Modified (1ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 22:13:11 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"algo en espanol", "commit"=>"Send!"}
+  [1m[36mKey Load (0.2ms)[0m  [1mSELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1[0m
+Rendered push_message/send_message.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 884ms (Views: 11.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /keys.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /map.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /push_message.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /keys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /push_message.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:13:12 -0500
+Served asset /map.js - 304 Not Modified (0ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 22:14:06 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"algo en espanol", "commit"=>"Send!"}
+  [1m[35mKey Load (0.1ms)[0m  SELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1
+Completed 500 Internal Server Error in 773ms
+
+TypeError (can't convert Fixnum into String):
+  app/controllers/push_message_controller.rb:24:in `+'
+  app/controllers/push_message_controller.rb:24:in `send_message'
+
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/hernan/.rvm/gems/ruby-1.9.2-head@gestor_terminologico/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 22:14:23 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"algo en espanol", "commit"=>"Send!"}
+  [1m[36mKey Load (0.1ms)[0m  [1mSELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1[0m
+Rendered push_message/send_message.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 790ms (Views: 10.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /keys.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /push_message.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /map.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /push_message.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /keys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:14:24 -0500
+Served asset /map.js - 304 Not Modified (0ms)
+
+
+Started GET "/push_message/index" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+  Processing by PushMessageController#index as HTML
+Rendered push_message/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /keys.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /push_message.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /map.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /keys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:08 -0500
+Served asset /push_message.js - 304 Not Modified (0ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 22:15:18 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"algo en espanol", "commit"=>"Send!"}
+  [1m[35mKey Load (0.1ms)[0m  SELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1
+Rendered push_message/send_message.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 774ms (Views: 10.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /keys.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /map.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /push_message.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /keys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /push_message.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:15:19 -0500
+Served asset /map.js - 304 Not Modified (1ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 22:21:23 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"algo en espanol", "commit"=>"Send!"}
+  [1m[36mKey Load (0.2ms)[0m  [1mSELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1[0m
+Rendered push_message/send_message.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 944ms (Views: 62.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /keys.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /map.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /push_message.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /push_message.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /keys.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
+Served asset /map.js - 304 Not Modified (1ms)
