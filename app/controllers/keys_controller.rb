@@ -2,7 +2,7 @@ class KeysController < ApplicationController
   # GET /keys
   # GET /keys.json
   def index
-    @keys = Key.all
+    @keys = Key.find_by_name("coordinates")
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @keys }
