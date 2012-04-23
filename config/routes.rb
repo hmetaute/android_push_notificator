@@ -1,4 +1,8 @@
 PushNotificator::Application.routes.draw do
+  get "push_message/index"
+
+  get "push_message/send_message"
+
   match ':controller/:action/:id'
   #match 'map/show_map/:id' => 'maps#show_map'
   #get "map/show_position/:id"

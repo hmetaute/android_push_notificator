@@ -1,0 +1,2 @@
+module PushMessageHelper
+end
