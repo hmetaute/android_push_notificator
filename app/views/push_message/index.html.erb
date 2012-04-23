@@ -1,6 +1,6 @@
 <h1>PushMessage#index</h1>
 <p>This is the index of the send push message module</p>
-<%= form_tag("send_message", :method => "get") do %>
+<%= form_tag("send_message", :method => "post") do %>
   <%= label_tag(:q, "Search for:") %>
   <%= text_field_tag(:q) %>
   <%= submit_tag("Search") %>
