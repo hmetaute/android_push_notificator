@@ -4,7 +4,7 @@
   <tr>
     <th>Name</th>
     <th>Value</th>
-    <th></th>
+    <th>Created at</th>
     <th></th>
     <th></th>
   </tr>
@@ -13,6 +13,7 @@
   <tr>
     <td><%= key.name %></td>
     <td><%= key.value %></td>
+    <td><%= key.created_at %></td>
     <td><%= link_to 'Show in map' , :controller => "map", :action => "show_position", :id => key %></td>
     <td><%= link_to 'Edit', edit_key_path(key) %></td>
   </tr>

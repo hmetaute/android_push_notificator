@@ -1582,3 +1582,47 @@ Served asset /keys.js - 304 Not Modified (1ms)
 
 Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:21:25 -0500
 Served asset /map.js - 304 Not Modified (1ms)
+
+
+Started POST "/push_message/send_message" for 127.0.0.1 at 2012-04-22 22:37:00 -0500
+  Processing by PushMessageController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6Gzc3InuIay6O4AM3aZUll/b9a47cgztTA09LK83OU=", "message"=>"hola, hernan", "commit"=>"Send!"}
+  [1m[36mKey Load (0.2ms)[0m  [1mSELECT "keys".* FROM "keys" WHERE "keys"."name" = 'registration_id' LIMIT 1[0m
+Rendered push_message/send_message.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 939ms (Views: 83.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/keys.css?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /keys.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/push_message.css?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /push_message.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/keys.js?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /keys.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /map.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /map.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/push_message.js?body=1" for 127.0.0.1 at 2012-04-22 22:37:02 -0500
+Served asset /push_message.js - 304 Not Modified (1ms)
