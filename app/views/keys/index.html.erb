@@ -13,7 +13,7 @@
   <tr>
     <td><%= key.name %></td>
     <td><%= key.value %></td>
-    <td><%= key.created_at %></td>
+    <td><%= (key.created_at + 60*60*7).to_s %></td>
     <td><%= link_to 'Show in map' , :controller => "map", :action => "show_position", :id => key %></td>
     <td><%= link_to 'Edit', edit_key_path(key) %></td>
   </tr>
