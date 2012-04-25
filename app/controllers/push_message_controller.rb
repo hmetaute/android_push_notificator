@@ -21,6 +21,7 @@ class PushMessageController < ApplicationController
     #postData = Net::HTTP.post_form(uri,params)    
     resp, dat = http.post(uri.path, data, headers)
     @message_response = dat + ";" + resp.code.to_s
+    redirect_to keys_url    
   end
 
   
